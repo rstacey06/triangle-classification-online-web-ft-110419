@@ -1,5 +1,8 @@
 class Triangle
   
+  class TriangleError < StandardError
+  end
+  
   attr_reader :a, :b, :c
   
   def initialize (a, b, c)
@@ -18,6 +21,5 @@ class Triangle
     end
   end
   
-  # class TriangleError::StandardError
-  # end
+  
 end
