@@ -23,7 +23,7 @@ class Triangle
   end
   
   def triangle
-    triangle_side = [(a + b > c), (b = c > a), (a + c > b)]
+    triangle_side = [(a + b > c), (b + c > a), (a + c > b)]
     [a, b, c].each {|x| triangle_side << false if x <= 0}
     raise TriangleError if triangle_side.include?(false)
   end
