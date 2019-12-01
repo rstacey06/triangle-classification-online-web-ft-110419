@@ -15,4 +15,5 @@ class Triangle
     if a == b && b ==c 
       :equilateral
     end
+  end
 end
