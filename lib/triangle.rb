@@ -12,5 +12,5 @@ class Triangle
   end
   
   def kind 
-    
+    if a == b && b ==c 
 end
