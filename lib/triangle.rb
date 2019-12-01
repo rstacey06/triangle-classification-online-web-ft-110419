@@ -1,7 +1,7 @@
 class Triangle
   
-  class TriangleError < StandardError
-  end
+  # class TriangleError < StandardError
+  # end
   
   attr_reader :a, :b, :c
   
