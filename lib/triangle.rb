@@ -18,6 +18,6 @@ class Triangle
     end
   end
   
-   class TriangleError::StandardError
-  end
+  # class TriangleError::StandardError
+  # end
 end
