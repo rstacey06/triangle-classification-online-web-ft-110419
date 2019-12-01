@@ -10,4 +10,7 @@ class Triangle
     @b = b 
     @c = c
   end
+  
+  def kind 
+    
 end
